@@ -8,6 +8,8 @@ export const config = {
   siteUrl: "saintforence.dpdns.org",  // 填入你的自定义域名，或使用默认部署链接
   siteLogo: "/assets/logo.png",  // 你的网站 Logo 图标路径
 
+  export const outputDirectory = './out';  
+
   // Notion Integration
   notionUrl: 'https://www.notion.so',  // 默认 Notion URL
   notionApiUrl: 'https://api.notion.so/v1',  // Notion API URL
